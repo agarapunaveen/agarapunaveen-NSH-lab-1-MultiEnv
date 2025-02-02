@@ -3,7 +3,7 @@ module "ec2_instance" {
 
   name = "single-instance"
 
-  instance_type          = var.instance_type
+  instance_type          = "t2.micro"
   
   tags = {
     Terraform   = "true"
